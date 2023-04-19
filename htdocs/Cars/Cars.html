@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Cars</title>
+</head>
+<body>
+    <form action="Cars.php" method="get">
+        <p>
+            <label for="brand">Brand: </label>
+            <input type="text" name="brand" id="brand" required>
+        </p>
+        <p>
+            <label for="model">Model: </label>
+            <input type="text" name="model" id="model" required>
+        </p>
+        <p>
+            <label for="color">Color: </label>
+            <input type="text" name="color" id="color" required>
+        </p>
+        <p>
+            <label for="construction_year">Construction Year: </label>
+            <input type="text" name="construction_year" id="construction_year" required>
+        </p>
+        <p>
+            <label for="license_plate">License Plate: </label>
+            <input type="text" name="license_plate" id="icense_plate" required>
+        </p>
+        <p>
+            <label for="Price">Price: </label>
+            <input type="text" name="Price" id="Price" required>
+        </p>
+        <p>
+            <label for="Status">Status: </label>
+            <input type="text" name="Status" id="Status" required value="Used">
+        </p>
+        <input type="submit" value="Add to database">
+
+    </form>
+    <h1>Cars in stock</h1>
+    <form action="search.php" method="GET">
+        <input type="text" name="query" />
+        <input type="submit" value="Search" />
+    </form>
+    <ul></ul>
+    <script src="java_cars.js"></script>
+</body>
+</html>

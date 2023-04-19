@@ -1,0 +1,13 @@
+Voorbeeld in JavaScript:
+persons = [
+  {id: 12, name: 'Cathy Mill', role: 'manager', gender: 'female', age: 26},
+  {id: 45, name: 'Mohamed Johnson', role: 'client', gender: 'male', age: 11},
+  {id: 3, name: 'Rose Ogene', role: 'designer', gender: 'female', age: 21},
+]
+
+Voorbeeld in PHP:
+$persons = [
+  ["id"=>10, "name"=>"John Doe", "role"=>"developer", "gender"=>"male", "age"=>34],
+  ["id"=>15, "name"=>"Pete Great", "role"=>"administrator", "gender"=>"male", "age"=>41],
+  ["id"=>21, "name"=>"Ann Ever", "role"=>"tester", "gender"=>"female", "age"=>38],
+];
