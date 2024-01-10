@@ -1,0 +1,1 @@
+<footer>&copy; Maksymilian Ratajczak</footer>

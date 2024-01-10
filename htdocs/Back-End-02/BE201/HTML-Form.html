@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <form id="myForm"  action="php.php" method="POST">
+        <div class = div>
+            <p>
+                <label for="Name">Naam: </label>
+                <input type="text" name="Name" id="Name" required>
+            </p>
+            <p>
+                <label for="Email">Email: </label>
+                <input type="text" name="Email" id="Email" required>
+            </p>
+            <input type="submit" value="Add to database">
+        </div>
+        <div class = div>
+            <h1>De ingevulde gegevens zijn</h1>
+            <p>
+                <label for="Name">Naam: </label>
+                <input type="text" name="Name" id="Name" required>
+            </p>
+            <p>
+                <label for="Email">Email: </label>
+                <input type="text" name="Email" id="Email" required>
+            </p>
+            <input type="submit" value="Add to database">
+        </div>
+    </form>
+    <ul id="carList"></ul>
+</body>
+</html>
